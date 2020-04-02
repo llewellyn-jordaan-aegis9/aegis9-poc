@@ -5,20 +5,20 @@
     <title>Aegis 9 Pty Ltd</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-    <link href="/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/plugins/fontawesome/css/all.css" rel="stylesheet">
-    <link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/theme.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
+    <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="plugins/fontawesome/css/all.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
   </head>
 
   <body>
     <div id="app"></div>
     
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/flexslider.min.js"></script>
-    <script src="/js/parallax.js"></script>
-    <script src="/js/scripts.js"></script>
-    <script src="/build.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/flexslider.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="build.js"></script>
   </body>
 </html>
