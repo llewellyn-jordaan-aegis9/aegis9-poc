@@ -283,7 +283,7 @@
   }
   
 .cursor{
-    color: rgb(139,117,255) !important;
+    color: #000 !important;
 }
 
   @keyframes blink {
@@ -304,10 +304,45 @@
 
   /*---------------------------------------------------------------------------------------------------------------------------*/
 
+
+.banner-overlay{
+    max-height:550px !important; 
+    background-color: #493999 !important;
+}
+
+.banner-header{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 999 !important;
+    color: #fff !important;
+    font-size: 48pt !important;
+    
+}
+
+.banner-sub-header{
+    font-weight:400 !important;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #fff !important;
+}
+
+.section-purple{
+    background-color: #c1c1e8 !important;
+}
+
+.section-purple-dark{
+    background-color: rgb(73, 61, 129) !important;
+}
+
+.text-purple-dark{
+    color: #4a3d8b !important;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 .btn-anine{
+    padding-top: 10px !important;
     border-radius: 1px !important;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-weight: 550 !important;
+    font-size: 10pt !important;
     text-transform: none !important;
     background-color: #8c75ff !important;
     color: #fff !important;
@@ -317,47 +352,21 @@
     background-color: #5849a5 !important;
 }
 
-/*
 .btn, .btn-primary, .btn-secondary{
     border-radius: 1px !important;
+}
+
+.btn-anine-outline{
+    border-radius: 1px !important;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 10pt !important;
     font-weight: 550 !important;
     text-transform: none !important;
-}
-*/
-
-  /*
-.btn-primary{
-    background-color: #8c75ff !important;
+    background-color: transparent !important;
+    color: #4a3d8b !important;
+    border-color: #5849a5 !important;
 }
 
-.btn, .btn-primary, .btn-secondary{
-	border-radius: 1px !important;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-weight: 550 !important;
-	font-size: 9pt !important;
-}
-
-.btn-primary{
-	border: 1px solid #5a5a5a !important;
-}
-
-.btn-sm{
-	font-weight: 600 !important;
-	font-size: 9pt !important;
-}
-
-.btn-lg{
-	font-weight: 900 !important;
-	font-size: 10.5pt !important;
-    padding-top: 14px !important;
-    border: 1px solid #5a5a5a;
-}
-*/
-
-.btn, .btn-primary, .btn-secondary{
-    border-radius: 1px !important;
-}
 
 .modal-content {
     border-radius: 1px !important;
@@ -372,12 +381,12 @@
   }
 
 
-  .feature-heading{
+.feature-heading{
     font-size: 15pt !important; 
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
+}
 
-  .navbar-expand .navbar-nav .dropdown-menu {
+.navbar-expand .navbar-nav .dropdown-menu {
     min-width: 300px !important;
     max-width: 400px !important;
 }
@@ -418,7 +427,17 @@
 }
 
 .rounded-circle{
-	border: 1px solid #d0d0d0 !important;
+	border: 1px solid #c9c9c9 !important;
+}
+
+.leader-name{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.leader-role{
+    font-size: 18pt;
+    font-family: "Lato", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .job-title{
@@ -430,4 +449,9 @@
     font-size: 11pt !important;
     font-family: "Lato", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     text-align: justify;
+}
+
+.bio-text{
+    text-align: justify;
+    font-family: "Lato", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
