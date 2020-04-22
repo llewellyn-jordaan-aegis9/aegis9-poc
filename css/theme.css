@@ -2357,24 +2357,24 @@ button[type="submit"] .form-loading {
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  border-left: 2px solid #dfdfdf;
+  /*border-left: 2px solid #dfdfdf;*/
 }
 .bg-secondary .button-tabs .tab-title {
   background: #eee;
 }
 .button-tabs .tab-title span {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 8pt !important;
   line-height: 24px;
-  font-weight: 400;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
 }
 .button-tabs .active .tab-title {
   background: #fff;
   color: #fff;
-  border-left: 4px solid rgb(139,117,255);
+  /*border-left: 4px solid rgb(139,117,255);*/
+  border-bottom: 4px solid rgb(139,117,255);
   color: #000;
 }
 

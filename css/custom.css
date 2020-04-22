@@ -267,6 +267,13 @@
   
   /* Cursor Styling */
   
+  .writer-container{
+	font-family: "Lato", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 18.5pt !important;
+	font-weight: bold !important;
+	color: #fff
+}
+
   .cursor::after {
     content:'';
     display:inline-block;
@@ -301,8 +308,22 @@
     }
   }
 
+  .hidden{
+      display: none !important;
+  }
 
-  /*---------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------ SECONDARY NAV --------------------------------------------------------*/
+
+.sub-nav-item{
+    padding: 10px 0px 6px 0px;
+    margin-bottom: 0px;
+}
+.active-sub-nav-item{
+    border-bottom: 4px solid #8c75ff !important;
+    font-weight: 999 !important;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
 
 
 .banner-overlay{

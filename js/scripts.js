@@ -2,6 +2,8 @@ import $ from 'jquery';
 
 /* eslint-disable */
 
+
+
 // TYPE WRITER
 // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
 var i = 0,
@@ -73,6 +75,16 @@ function typeWriter(id, ar) {
 
 $(document).ready(function () {
     "use strict";
+
+    $( ".sub-nav-item" ).click(function() {
+        $('.sub-nav-item').removeClass('active-sub-nav-item');
+
+        $(this).addClass('active-sub-nav-item');
+
+        $('html,body').animate({
+            scrollTop: $('.secondary-nav').offset().top - 60
+        }, 'slow');
+    });
 
     // Smooth scroll to inner links
     var innerLinks = $('a.inner-link');
