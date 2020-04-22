@@ -267,14 +267,36 @@
   
   /* Cursor Styling */
   
-  .writer-container{
-	font-family: "Lato", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	font-size: 18.5pt !important;
-	font-weight: bold !important;
-	color: #fff
+.writer-container{
+    font-family: "Lato", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    color: #fff;
+    font-size: 17.5pt !important;
 }
 
-  .cursor::after {
+@media only screen and (min-width: 1024) {
+    .writer-container{
+        font-size: 12.5pt !important;
+    }
+}
+
+/*
+@media only screen and (min-width: 1440) {
+    .writer-container{
+        font-size: 16.5pt !important;
+    }
+}
+*/
+
+/*
+@media only screen and (min-width: 2560) {
+    .writer-container{
+        font-size: 16.5pt !important;
+    }
+}
+*/
+
+.cursor::after {
     content:'';
     display:inline-block;
     margin-left:3px;
@@ -328,6 +350,7 @@
 
 .banner-overlay{
     max-height:550px !important; 
+    min-height:550px !important; 
     background-color: #493999 !important;
 }
 
@@ -388,7 +411,6 @@
     border-color: #5849a5 !important;
 }
 
-
 .modal-content {
     border-radius: 1px !important;
 }
@@ -399,8 +421,7 @@
 
 .methods-background {
     background-color: #252e30 !important;
-  }
-
+}
 
 .feature-heading{
     font-size: 15pt !important; 
