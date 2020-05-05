@@ -1,4 +1,5 @@
 import $ from 'jquery';
+//import store from '../../src/store'
 
 /* eslint-disable */
 
@@ -73,10 +74,19 @@ function typeWriter(id, ar) {
     }
 }
 
+var phoneSizeWidth = 550;
+
+
 $(document).ready(function () {
     "use strict";
-
     
+    //$( window ).resize(function() {
+    //    if ( $(window).width() <= phoneSizeWidth) {     
+           // console.log('phone size');
+
+           // store.dispatch('_SetSolutions', 'all');
+    //    }
+    //});
 
     // Smooth scroll to inner links
     var innerLinks = $('a.inner-link');
