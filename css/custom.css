@@ -1,5 +1,4 @@
 
-
 /*--------------------------------------------- TIMELINE ------------------------------------------------------------------------*/
 
 .vertical-container {
@@ -369,7 +368,7 @@
 }
 
 .section-purple{
-    background-color: #c1c1e8 !important;
+    background-color: #d5d5f8ce !important;
 }
 
 .section-purple-dark{
@@ -509,6 +508,19 @@
 }
 
 
+.solution-title{
+    background-color: rgb(73, 61, 129) !important;
+    color: #fff !important;
+    padding: 20px 10px 16px 10px;
+}
+
+.solution-title h5{
+    background-color: rgb(73, 61, 129) !important;
+	color: #fff !important;
+}
+
+
+/*
 .slider-container{
 	overflow: hidden;
 }
@@ -532,8 +544,11 @@
     animation: slide 0.8s forwards;
     animation-delay: 0.5s;
 }
+*/
 
 .slide-2s {
+    padding-left: 20px;
+    /*
 	position: relative;
     left: -200%;
     width: 100%;
@@ -541,10 +556,9 @@
     -webkit-animation-delay: 0.9s;
     animation: slide 0.8s forwards;
     animation-delay: 0.9s;
+    */
 }
-
-
-
+/*
 @-webkit-keyframes slide {
     100% { left: 0; }
 }
@@ -552,3 +566,5 @@
 @keyframes slide {
     100% { left: 0; }
 }
+*/
+
